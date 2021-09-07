@@ -29,7 +29,9 @@ public class ManageBikeService {
 		
 		}).collect(Collectors.toList());
 		
+		System.out.println("service printed");
 		return bikeDtos;
+	
 		
 	}
 
